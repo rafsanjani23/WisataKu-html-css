@@ -2,7 +2,6 @@
 
 **WisataKu** adalah project website bertema **wisata Indonesia** yang dibuat menggunakan **HTML dan CSS murni**.  
 Proyek ini menampilkan halaman **login** sederhana yang mengarahkan ke **landing page wisata interaktif** dengan desain **modern, responsif, dan aesthetic**.  
-Cocok sebagai contoh proyek portofolio web untuk GitHub.
 
 ---
 
