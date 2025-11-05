@@ -54,4 +54,5 @@ wisataku/
 │
 ├── index.html       # Halaman utama (landing page)
 ├── login.html       # Halaman login
-├── style.css        # File CSS utama
+├── style.css        # File CSS utama\
+├── 📘 README.md     # Dokumentasi proyek
