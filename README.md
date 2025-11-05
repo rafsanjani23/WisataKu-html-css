@@ -27,19 +27,19 @@ Proyek ini menampilkan halaman **login** sederhana yang mengarahkan ke **landing
 
 ## 🧰 Teknologi yang Digunakan
 
-HTML5 — untuk struktur dan konten halaman web
+- **HTML5** — untuk struktur dan konten halaman web
 
-CSS3 — untuk tampilan, layout, warna, dan animasi
+- **CSS3** — untuk tampilan, layout, warna, dan animasi
 
-Flexbox & Media Queries — untuk membuat desain responsif di berbagai perangkat
+- **Flexbox & Media Queries** — untuk membuat desain responsif di berbagai perangkat
 
-Google Maps Embed API — untuk menampilkan peta lokasi wisata
+- **Google Maps Embed API** — untuk menampilkan peta lokasi wisata
 
-Font: Poppins (Google Fonts) — untuk tipografi modern dan bersih
+- **Font:** Poppins (Google Fonts) — untuk tipografi modern dan bersih
 
 ---
 
-🖼️ Preview
+## 🖼️ Preview
 | Halaman          | Tampilan                                                        |
 | ---------------- | --------------------------------------------------------------- |
 | **Login Page**   | Form login dengan background gradasi modern                     |
