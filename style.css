@@ -1,0 +1,184 @@
+/* ====== Gaya Umum ====== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  color: #333;
+  background: #f5f8fa;
+}
+
+/* ====== LOGIN PAGE ====== */
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #2e8b57, #1e90ff);
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+  animation: fadeIn 0.8s ease;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background: #005ecb;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* ====== LANDING PAGE ====== */
+.wisata-header {
+  background: linear-gradient(90deg, #2e8b57, #1e90ff);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wisata-header h1 {
+  font-size: 1.8rem;
+}
+.wisata-header span {
+  color: #ffeb3b;
+}
+.wisata-header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+.wisata-header nav a:hover {
+  opacity: 0.8;
+}
+
+.hero-wisata {
+  text-align: center;
+  padding: 100px 20px;
+  background: url("https://images.unsplash.com/photo-1591192626617-f9c691fa8df4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2064s")
+    center/cover no-repeat;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #005ecb;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ====== Animasi ====== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-wisata {
+    padding: 60px 20px;
+  }
+
+  .wisata-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
